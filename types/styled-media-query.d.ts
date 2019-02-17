@@ -31,7 +31,7 @@ declare module 'styled-media-query' {
       breakpoint: keyof Breakpoints
     ) => GeneratorFunction<Props, Theme>
     between: <Props>(
-      fist: keyof Breakpoints,
+      first: keyof Breakpoints,
       second: keyof Breakpoints
     ) => GeneratorFunction<Props, Theme>
   }
